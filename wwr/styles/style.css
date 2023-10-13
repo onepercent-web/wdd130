@@ -1,5 +1,24 @@
-
-div {     
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Roboto:wght@500&display=swap');
+body { 
+    background-color: #ffe100;  
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+head {
+    font-family:'Lugrasimo', cursive; 
+}
+.home-title {
+    color: #ff8a60;
+    font-family: 'Lugrasimo','Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+div {
     max-width: 1600px;
 }
 div {
@@ -8,9 +27,11 @@ div {
 #content {
     margin: 0 auto;
 }
-nav a {text-align: center;
-       color: #4ddeff;
-       text-decoration: none;
+nav a {
+    text-decoration: none;
+    color: #4ddeff;
+    text-align: center;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -37,9 +58,6 @@ nav a:hover {
     background-color:#ffffff;
     color:#4ddeff ;
 }
-.home-title {
-    color: #ff8a60
-}
 h4 {
     color: #ff8a60
 }
@@ -47,11 +65,21 @@ h4 {
     background-color: #ffffff;
     color:#4ddeff ;
     text-decoration: none;
+    font-family: 'Noto Serif', 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .join {
     background-color: #ffe100;
     color:#4ddeff;
     text-decoration: none;
+    font-family: 'Noto Serif', 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: #4ddeff;
@@ -64,18 +92,43 @@ h4 {
 #background {
     background-color: #ffe100 ;
 }
+.icon {
+    padding-top: 10px;
+}
 .msg {
     background-color: #ffe100 ;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: black;
 }
 .msg p {
     color: black;
+    font-family: 'Noto Serif', 'Roboto', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.card-img {
+    border: 10px solid #ff8a60;
+}
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card  {
+    margin: 200px 0;
 }
 footer {
     background-color: #4ddeff;
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -83,6 +136,9 @@ footer a {
 }
 footer a:hover {
     color: #ffffff;
+}
+footer .social img {
+    padding-top: 15px;
 }
 .logo {
     width: 80px;
@@ -92,6 +148,9 @@ footer a:hover {
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
 }
 footer p {
     font-size: 1.2em;
