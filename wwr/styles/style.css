@@ -265,7 +265,7 @@ nav {
 #wide-river img {
     width: 100%;
 }
-
+@media screen and (max-width: 900px) {
 .qa-section {
     text-align: center;
     margin-top: 150px;
@@ -332,4 +332,5 @@ nav {
 .q-images {
    display: flex;
    justify-content: center; 
+}
 }
