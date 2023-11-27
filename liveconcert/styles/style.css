@@ -4,17 +4,17 @@ body {
     font-family: 'Orbitron',sans-serif;;
     font-size: 35px;
 }
-     /* pink#F002FF   
-        green#58FF10 
-        yellow#FFF462
-        black#000000*/
+        
 .title {
-    font-family:'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #ffffff;
     font-size: 150px;
     position: absolute;
-    bottom: 10px;
-
+    bottom: 45%; 
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    white-space: nowrap;
 }
 .live {
     width: 100%;
@@ -77,41 +77,65 @@ color: #F002FF;
     text-align: center;
 }
 
-
 .here {
     color: #F002FF;
-    border: #F002FF;
-    border-radius: 5px;
+    border: 3px solid #F002FF;
+    border-radius: 10px;
     text-decoration: none;
+    padding: 10px;
+    margin-left: 47%;
 }
+
 .here :hover {
-    color: #ffffff;
-    border: #ffffff;
+color: #ffffff;
+border: #ffffff;
 
 }
 
 .map {
     background-color: #000000;
-    color: #58FF10 ;
+    color: #58FF10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .accessmap {
     text-align: center;
     background-color: #000000;
     color: #58FF10 ;
 }
+.map-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .map-pic {
     width: 1000px;
     height: 670px;
-margin-left: 50%;  
+    order: 2; 
 }
 .acces-p {
-
+    margin-right: 20px;
+    flex: 1;
+    order: 1;
 }
+
 footer {
-    background-color: #000000;
-
+    text-align: center;
 }
-
+.social {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    margin: auto;
+}
+.social a {
+    margin: 0 10px;
+}
+.logo {
+display: block;
+margin: auto;
+}
 footer p {
     color: #FFF462;
 
