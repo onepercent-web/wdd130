@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Orbitron&display=swap');
+body { 
+    background-color:#000000;
+    font-family: 'Orbitron',sans-serif;;
+    font-size: 35px;
+}
+     /* pink#F002FF   
+        green#58FF10 
+        yellow#FFF462
+        black#000000*/
+.title {
+    font-family:'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 150px;
+    position: absolute;
+    bottom: 10px;
+
+}
+.live {
+    width: 100%;
+    position: relative;
+}
+
+header {
+background-color: #000000;
+ font-family:'Inter', sans-serif;
+ width: 100%;
+margin: 2%;
+}
+.menu-items {
+font-size: 50px;
+color: #000000;
+}
+.menu-items a {
+color: #ffffff;
+}
+.menu {
+background-color: #000000;
+text-decoration: none;
+}
+.menu:hover {
+background-color: #ffe;
+color: #000000;
+}
+
+.imformation {
+    text-align: center;
+background-color: #000000;
+color: #F002FF;
+}
+
+.info-t {
+    background-color: #000000;
+color: #F002FF;
+}
+.schedule {
+    background-color: #000000;
+color: #ffffff;
+}
+.date {
+    background-color: #000000;
+color: #ffffff;
+}
+.venue {
+    background-color: #000000;
+color: #ffffff;
+}
+.stadium{
+    background-color: #000000;
+color: #ffffff;
+}
+.home-tickets {
+background-color: #000000;
+color: #F002FF;
+}
+.tickets-info {
+    text-align: center;
+}
+
+
+.here {
+    color: #F002FF;
+    border: #F002FF;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.here :hover {
+    color: #ffffff;
+    border: #ffffff;
+
+}
+
+.map {
+    background-color: #000000;
+    color: #58FF10 ;
+}
+.accessmap {
+    text-align: center;
+    background-color: #000000;
+    color: #58FF10 ;
+}
+.map-pic {
+    width: 1000px;
+    height: 670px;
+margin-left: 50%;  
+}
+.acces-p {
+
+}
+footer {
+    background-color: #000000;
+
+}
+
+footer p {
+    color: #FFF462;
+
+}
+footer p:hover{
+    color: #ffffff;
+}
+.siteplan {
+    color: #FFF462;
+    text-decoration: none;
+}
+.siteplan:hover {
+    color: #ffffff;
+}
