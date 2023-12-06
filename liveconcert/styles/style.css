@@ -92,9 +92,9 @@ color: #F002FF;
     margin-left: 47%;
 }
 
-.here :hover {
+.here:hover {
 color: #ffffff;
-border: #ffffff;
+border: 3px solid #ffffff;
 
 }
 
@@ -222,9 +222,88 @@ margin-top: 7%;
 margin-bottom: 7%;
 }
 
+/* profile page */
 
-/*border-top : solid 3px #eb00ff; 
-border-right: solid 3px #FFF462; 
-border-bottom: solid 3px #58FF10;
-border-left: solid 3px #FFF462
-padding: 4px 16px; */
+
+.thirdpage {
+text-align: center;
+}
+
+.artistprofile {
+color: #FFF462;
+margin-top: 7%;
+}
+
+.profile-logo {
+    margin-top: 5%;
+    width: 25%;
+}
+
+.artist-p {
+color: #FFF462;
+text-align: left;
+text-align: justify;
+margin: 7%;
+}
+.music {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.about-music {
+display: grid;
+grid-template-columns: repeat(3, 1fr); 
+grid-template-rows: auto auto;
+gap: 100px; 
+justify-content: center; 
+margin-bottom: 7%;
+}
+
+.jacket-container {
+display: flex;
+flex-direction: row; 
+align-items: center;
+margin-right: 20px;
+}
+
+.jacket1 {
+width: 500px;
+height: 500px;
+}
+.jacket2 {
+width: 498px;
+height: 498px;
+border: 0.1px solid #ffffff;
+margin-right:1%;
+}
+.jacket3 {
+width: 500px;
+height: 500px;
+}
+.jacket4 {
+width: 500px;
+height: 500px;
+}
+.jacket5 {
+width: 500px;
+height: 500px;
+} 
+
+.song1, .song2, .song3, .song4, .song5 {
+font-family: 'Inter', sans-serif;
+color: #ffffff;
+margin-left:10%;
+}
+.date1, .date2, .date3, .date4, .date5 {
+font-family: 'Inter', sans-serif;
+color: #ffffff;
+margin-left:10%;
+}
+.andmore {
+color: #ffffff;
+text-align: left;
+margin-top: 50%;
+}
+
+
