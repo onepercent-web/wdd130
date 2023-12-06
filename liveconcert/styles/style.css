@@ -309,29 +309,29 @@ margin-top: 50%;
 
 @media screen and (max-width: 900px) {
     body {
-        font-size: 18px; /* モバイルデバイスのためにフォントサイズを小さくする */
+        font-size: 16px;
     }
 
     header .menu-items {
-        font-size: 15px; /* メニューアイテムのサイズを調整する */
+        font-size: 20px; 
     }
 
     .profile-logo {
-        width: 50%; /* ロゴのサイズを調整する */
+        width: 50%; 
     }
 
     .about-music {
-        grid-template-columns: 1fr; /* 音楽関連コンテンツを一列にする */
+        grid-template-columns: 1fr; 
     }
 
     .jacket-container {
-        flex-direction: column; /* jacket-container を縦方向に並べる */
-        align-items: center; /* 中央揃え */
+        flex-direction: column; 
+        align-items: center;
     }
 
     .jacket1, .jacket2, .jacket3, .jacket4, .jacket5 {
-        width: 100%; /* 画像の幅を調整する */
-        height: auto; /* 画像の高さを自動調整する */
+        width: 100%; 
+        height: auto; 
     }
 
     .song1, .song2, .song3, .song4, .song5 {
@@ -342,11 +342,40 @@ margin-top: 50%;
     }
 
     .andmore {
-        margin-top: 5%; /* andmore セクションのマージンを調整する */
+        margin-top: 5%;
     }
-    .logo {
-        width: 50px;
-        height: 50px;
-        }
-    /* その他のレスポンシブに関するスタイル */
+    .home-grid, .imformation, .home-tickets, .map {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .map-content {
+        flex-direction: column;
+    }
+    .map-pic {
+        width: 100%;
+        height: auto;
+        order: 1;
+    }
+    .acces-p {
+        order: 2; 
+        margin-right: 0;
+    }
+
+    .logo, .social img {
+        width: 30px;
+        height: 30px;
+    }
+    .ticket-grid, .secondpage, .tickets, .pic-2page {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .ticket-pic {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .table {
+        flex-direction: column; 
+    }
 }
