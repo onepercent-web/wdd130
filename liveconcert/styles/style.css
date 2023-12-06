@@ -307,8 +307,36 @@ margin-top: 50%;
 }
 
 
-@media screen and (max-width: 800px){
-    p {
-     color: blue;
-   }
-  }
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 18px; /* モバイルデバイスのためにフォントサイズを小さくする */
+    }
+
+    header .menu-items {
+        font-size: 30px; /* メニューアイテムのサイズを調整する */
+    }
+
+    .profile-logo {
+        width: 50%; /* ロゴのサイズを調整する */
+    }
+
+    .about-music {
+        grid-template-columns: 1fr; /* 音楽関連コンテンツを一列にする */
+    }
+
+    .jacket-container {
+        flex-direction: column; /* jacket-container を縦方向に並べる */
+        align-items: center; /* 中央揃え */
+    }
+
+    .jacket1, .jacket2, .jacket3, .jacket4, .jacket5 {
+        width: 100%; /* 画像の幅を調整する */
+        height: auto; /* 画像の高さを自動調整する */
+    }
+
+    .andmore {
+        margin-top: 20%; /* andmore セクションのマージンを調整する */
+    }
+
+    /* その他のレスポンシブに関するスタイル */
+}
