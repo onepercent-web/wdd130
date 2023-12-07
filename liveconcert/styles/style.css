@@ -337,6 +337,7 @@ margin-top: 50%;
     .jacket1, .jacket2, .jacket3, .jacket4, .jacket5 {
         width: 100%; 
         height: auto; 
+        text-align: center;
     }
 
     .song1, .song2, .song3, .song4, .song5 {
