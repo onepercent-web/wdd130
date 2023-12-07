@@ -312,18 +312,15 @@ margin-top: 50%;
         font-size: 16px;
     }
     header .menu-items {
-    font-size: 20px; /* メニューアイテムのフォントサイズを小さくする */
-    display: flex; /* メニューアイテムを横に並べる */
-    justify-content: space-around; /* アイテム間に均等なスペースを設定する */
-    padding: 10px 0; /* 上下のパディングを設定する */
+    font-size: 20px;
+    display: flex;
     }
     header .menu-items a {
         text-decoration: none;
-        color: #ffffff; /* メニューアイテムの色を設定する */
-        margin: 0 5px; /* 左右のマージンを設定する */
+        color: #ffffff; 
     }
 
-
+/* profile page */
     .profile-logo {
         width: 50%; 
     }
@@ -352,6 +349,7 @@ margin-top: 50%;
     .andmore {
         margin-top: 5%;
     }
+    /* ticket page */
     .home-grid, .imformation, .home-tickets, .map {
         margin-left: 5%;
         margin-right: 5%;
@@ -369,14 +367,6 @@ margin-top: 50%;
         margin-right: 0;
     }
 
-    .social img {
-        width: 30px;
-        height: 30px;
-    }
-    .logo {
-    width: 50px;
-    height: 50px;
-    }
     .ticket-grid, .secondpage, .tickets, .pic-2page {
         margin-left: 5%;
         margin-right: 5%;
@@ -390,6 +380,18 @@ margin-top: 50%;
     .table {
         flex-direction: column; 
     }
+
+    /* footer */
+    .social img {
+        width: 30px;
+        height: 30px;
+    }
+    .logo {
+    width: 50px;
+    height: 50px;
+    }
+
+     /* home page */
     .title {
     font-size: 24px;
     position: relative; 
