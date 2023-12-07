@@ -312,8 +312,17 @@ margin-top: 50%;
         font-size: 16px;
     }
     header .menu-items {
-        font-size: 10px; 
+    font-size: 20px; /* メニューアイテムのフォントサイズを小さくする */
+    display: flex; /* メニューアイテムを横に並べる */
+    justify-content: space-around; /* アイテム間に均等なスペースを設定する */
+    padding: 10px 0; /* 上下のパディングを設定する */
     }
+    header .menu-items a {
+        text-decoration: none;
+        color: #ffffff; /* メニューアイテムの色を設定する */
+        margin: 0 5px; /* 左右のマージンを設定する */
+    }
+
 
     .profile-logo {
         width: 50%; 
@@ -360,9 +369,13 @@ margin-top: 50%;
         margin-right: 0;
     }
 
-    .logo, .social img {
+    .social img {
         width: 30px;
         height: 30px;
+    }
+    .logo {
+    width: 50px;
+    height: 50px;
     }
     .ticket-grid, .secondpage, .tickets, .pic-2page {
         margin-left: 5%;
