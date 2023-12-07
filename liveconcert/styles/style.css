@@ -378,4 +378,7 @@ margin-top: 50%;
     .table {
         flex-direction: column; 
     }
+    .title {
+        width: 50%;
+    }
 }
