@@ -252,42 +252,43 @@ margin: 7%;
     margin-bottom: 7%;
 }
 .about-music {
-display: grid;
-grid-template-columns: repeat(3, 1fr); 
-grid-template-rows: auto auto;
-gap: 100px; 
-justify-content: center; 
-margin-bottom: 7%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 7%;
 }
 
 .jacket-container {
 display: flex;
-flex-direction: row; 
+flex-direction: row;
 align-items: center;
-margin-right: 20px;
+/* margin-right: 20px; */
+font-size: 22px;
 }
 
 .jacket1 {
-width: 500px;
-height: 500px;
+    width: 250px;
+    height: auto;
 }
 .jacket2 {
-width: 498px;
-height: 498px;
+    width: 249px;
+    height: auto;
 border: 0.1px solid #ffffff;
 margin-right:1%;
 }
 .jacket3 {
-width: 500px;
-height: 500px;
+    width: 250px;
+    height: auto;
 }
 .jacket4 {
-width: 500px;
-height: 500px;
+    width: 250px;
+    height: auto;
 }
 .jacket5 {
-width: 500px;
-height: 500px;
+    width: 250px;
+    height: auto;
 } 
 
 .song1, .song2, .song3, .song4, .song5 {
@@ -305,6 +306,14 @@ color: #ffffff;
 text-align: left;
 margin-top: 50%;
 }
+
+.jacket-container img {
+    width: 250px;
+    height: auto;
+    }
+
+
+
 
 
 @media screen and (max-width: 900px) {
@@ -406,3 +415,4 @@ margin-top: 50%;
     text-align: center;
 }
 }
+
